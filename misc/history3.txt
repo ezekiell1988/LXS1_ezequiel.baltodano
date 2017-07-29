@@ -1,0 +1,154 @@
+    1  sudo apt-get install virtualbox-guest-dkms
+    2  sudo reboot
+    3  mkdir ezekiell1988
+    4  ls
+    5  mv ezekiell1988 Documentos/
+    6  ls
+    7  cd Documentos/
+    8  ls
+    9  mkdir profesor
+   10  ls
+   11  sudo apt-get install tree
+   12  tree
+   13  sudo apt-get install update
+   14  sudo apt-get install upgrate
+   15  sudo apt-get update
+   16  sudo apt-get install git
+   17  git config --global user.name "Ezequiel Baltodano Cubillo"
+   18  git config --global user.email "ezekiell1988@hotmail.com"
+   19  git config --list
+   20  sudo apt-get install google-chrome-stable
+   21  cd ezekiell1988
+   22  cd ../
+   23  rm ezekiell1988
+   24  rmdir ezekiell1988
+   25  ls
+   26  rmdir profesor
+   27  mkdir github
+   28  ls
+   29  cd github
+   30  git clone https://github.com/ezekiell1988/LXS1_ezequiel.baltodano.git
+   31  ls
+   32  git clone https://github.com/emvarg/LXS1_emmanuel.vargas.git
+   33  tree
+   34  less LXS1_emmanuel.vargas/misc/history_clase2.txt
+   35  less LXS1_emmanuel.vargas/misc/history_clase2.txt | tail -20
+   36  less LXS1_emmanuel.vargas/misc/history_clase2.txt | tail -50
+   37  less LXS1_emmanuel.vargas/misc/history_clase2.txt
+   38  git pull origin master
+   39  ls
+   40  cd LXS1_ezequiel.baltodano/
+   41  git pull origin master
+   42  clear
+   43  wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   44  sudo aptitude update && sudo aptitude install libappindicator1
+   45  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   46  sudo aptitude update && sudo aptitude install libappindicator1
+   47  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   48  exit
+   49  ls
+   50  ls / | frep -Ev '*\.*'
+   51  ls / | grep -Ev '*\.*'
+   52  ls /
+   53  ls / | grep -E -v '*\.*'
+   54  ls / | grep -E -v '[a-zA-Z]*\.*'
+   55  ls / | grep -E -v '[a-zA-Z]*\.*|[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   56  ls / |grep 
+   57  ls / | grep -E '[a-zA-Z]*\.*|[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   58  ls / | grep -E '[a-zA-Z]*\.*[a-zA-Z]|[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   59  ls / | grep -E '[a-zA-Z]*\.*[a-zA-Z]*|[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   60  ls / | grep -E '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   61  ls / | grep -E '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   62  ls / | grep -Ev '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+   63  ls / | grep -Ev '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*' > /tmp/folder.txt
+   64  ls /tmp
+   65  mkdir /tmp/test
+   66  cd /tmp/test/
+   67  cat ../folder.txt | xargs mkdir
+   68  ls
+   69  ls / | grep -Ev '*\.|*\+'
+   70  yes cualquier estupides
+   71  jobs
+   72  ping 127.0.0.1
+   73  jobs
+   74  vim /tmp/algo.txt
+   75  apt install vim
+   76  sudo apt-get install vim
+   77  vim /tmp/algo.txt
+   78  vim.tiny /tmp/algo.txt
+   79  jobs
+   80  pin localhost
+   81  ping localhost
+   82  jobs
+   83  yes hola
+   84  jpbs
+   85  jobs 
+   86  kill -l
+   87  jobs
+   88  kill %
+   89  jobs
+   90  clear
+   91  ping localhost > /dev/null &
+   92  nice -n -20 cat /dev/zero > /dev/null &
+   93  sudo nice -n -20 cat /dev/zero > /dev/null &
+   94  ps
+   95  htop
+   96  apt-get install htop
+   97  sudo apt-get install htop
+   98  sudo apt-get -f install htop
+   99  sudo apt-get update
+  100  sudo apt-get -f install
+  101  sudo apt-get install htop
+  102  htop
+  103  clear
+  104  htop
+  105  cat /proc/cpuinfo 
+  106  cat /proc/cpuinfo | grep 'vm*'
+  107  clear
+  108  ps
+  109  ps -fe
+  110  ps -fe | less
+  111  echo 'echo hello' > /tmp/test.sh
+  112  echo 'sleep 100' >> test.sh
+  113  echo 'echo goodbye' >> /tmp/test.sh
+  114  chmod a+x test.sh
+  115  sudo /tmp/test.sh
+  116  ls
+  117  rm test.sh
+  118  ls
+  119  echo 'echo hello' > test.sh
+  120  echo 'sleep 100' >> test.sh
+  121  echo 'echo goodbye' >> test.sh
+  122  chmod a+x test.sh
+  123  ./test.sh 
+  124  ./test.sh &
+  125  jobs
+  126  kill %1
+  127  sleep 100 &
+  128  jobs
+  129  killall sleep
+  130  nice -n 10 sleep 100 &
+  131  ps -l
+  132  renice -n 15 -p 3467
+  133  ps -l
+  134  uptime
+  135  free
+  136  top
+  137  ssh-keygen -t rsa
+  138  cd .ssh
+  139  ls
+  140  ls -l
+  141  cat id_rsa
+  142  cat id_rsa.pub
+  143  ssh-copy-id user1@10.124.18.221
+  144  ssh user1@10.124.18.221
+  145  .
+  146  cd
+  147  ls
+  148  cd Documentos/github
+  149  ls
+  150  cd LSX1_ezequiel.baltodano/misc
+  151  cd LSX1_ezequiel.baltodano
+  152  cd LXS1_ezequiel.baltodano
+  153  cd misc
+  154  history > history3.txt
