@@ -1,0 +1,104 @@
+    1  sudo su
+    2  logout
+    3  ls -l
+    4  ls
+    5  ~
+    6  mkdir github
+    7  cd github
+    8  sudo apt-get update
+    9  sudo apt-get install git
+   10  git remote add origin https://github.com/ezekiell1988/LXS1_ezequiel.baltodano.git
+   11  sudo apt-get install git
+   12  sudo -
+   13  sudo su
+   14  git config --global user.name "nombre_usuario"
+   15  git config --global user.email "email_id"
+   16  git init ezekiell1988
+   17  ls -l
+   18  cd ezekiell1988/
+   19  git remote add origin https://github.com/ezekiell1988/LXS1_ezequiel.baltodano.git
+   20  git pull origin
+   21  ls -l
+   22  git clone https://github.com/ezekiell1988/LXS1_ezequiel.baltodano.git
+   23  ls -l
+   24  cd LXS1_ezequiel.baltodano/
+   25  ls -l
+   26  tree
+   27  sudo apt install tree
+   28  tree
+   29  git pull origin
+   30  ls -l
+   31  clear
+   32  cat /proc/cpuinfo 
+   33  cd
+   34  clear
+   35  cat /proc/cpuinfo 
+   36  cat /proc/cpuinfo | less
+   37  vim
+   38  vim actualizacion.sh
+   39  ls -l
+   40  chmod a+x ~/scripts/actualizacion.sh
+   41  chmod a+x ~/actualizacion.sh
+   42  ls -l
+   43  actualizacion.sh
+   44  ~/actualizacion.sh
+   45  sudo ~/actualizacion.sh
+   46  ls -l
+   47  vim actualizacion.sh
+   48  actualizacion.sh
+   49  ~/actualizacion.sh
+   50  vim actualizacion.sh
+   51  ~/actualizacion.sh
+   52  clear
+   53  ~
+   54  cd ~
+   55  lspci
+   56  sudo lspci
+   57  sudo su
+   58  sudo lspci -v
+   59  sudo lspci -v | les
+   60  sudo lspci -v | less
+   61  lspci -vv -d 00:01.3
+   62  lspci -vv -d 00:01
+   63  lspci -vv -s 00:01.3
+   64  lsusb
+   65  sudo su -
+   66  ls -lR /dev/disk/
+   67  clear
+   68  sudo ls -lR /dev/disk/
+   69  clear
+   70  ls -lR /dev/disk/
+   71  lshw | less
+   72  lshw
+   73  lshw grep -E "\*-|descrip"
+   74  clear
+   75  lshw grep -E "\*-|descrip"
+   76  sudo su
+   77  logout
+   78  cat /proc/meminfo | less
+   79  free -h
+   80  free -lh
+   81  df -lh
+   82  su
+   83  sudo su
+   84  crontab -e
+   85  ls
+   86  rm actualizacion.sh 
+   87  ls
+   88  cd github/
+   89  ls
+   90  cd ezekiell1988/
+   91  ls
+   92  cd LXS1_ezequiel.baltodano/
+   93  ls
+   94  cd src
+   95  ls
+   96  vim tmp_script.sh 
+   97  ./tmp_script.sh 
+   98  vim tmp_script.sh 
+   99  ./tmp_script.sh 
+  100  git config --list
+  101  ./tmp_script.sh 
+  102  git config --list
+  103  history
+  104  history > history_lvl2_clase1.txt

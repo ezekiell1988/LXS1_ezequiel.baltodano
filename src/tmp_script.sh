@@ -1,4 +1,4 @@
-#h!/bin/bash
+#!/bin/bash
 GREEN="\033[0;32m"
 RED="\033[0;31m"
 YELLOW="\033[0;33m"
@@ -23,3 +23,7 @@ then
 	echo Hola $NOMBRE, su correo es $EMAIL
 fi
 
+echo -en "${YELLOW}Agregando configuración de Git para el usuario $NOMBRE${RESET}"
+sudo su - ubuntu -c "git config --global user.name \"$NOMBRE\""
+sudo su - ubuntu -c "git config --global user.email \"$EMAIL\""
+sudo su - ubuntu -c "git config --global core.editor vim"
